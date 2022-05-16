@@ -32,13 +32,15 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 - [Djed: A Formally Verified Crypto-Backed Pegged Algorithmic Stablecoin](https://iohk.io/en/research/library/papers/djeda-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/)
 - [Lessons for sigmausd from the DJED paper](https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345)
 
+**Improvements based on extended-Djed**
+
 - When stablecoin is close to losing peg, e.g. 150%, then ERG is moved from liabilities (stablecoin holders) to equity (reservecoin holders). Effectively losing the peg starts at 150% in this case. This solves the zero equity problem.
 - When stablecoin starts to lose its peg, then the stablecoin holders are compensated by printing them reservecoin (debt for equity swap). This solves the stablecoin loss of peg at <100% problem.
 - Dynamic fees for buying and selling reservecoin and stablecoin. E.g. when reserve ratio is below 600%, then minting fee of stablecoin and redeeming fee of reservecoin go linearly up to 100%. This solves the rigid fees and bank runs problems.
 
 ### Governance 
 
-While SigmaUSD v1 was originally immutable, after the Bearwhale attacks a governance token was added to allow modifications for any vulnerabilities that could appear.
+> While SigmaUSD v1 was originally immutable, after the Bearwhale attacks a governance token was added to allow modifications for any vulnerabilities that could appear.
 
 - [Governance for oracle pools and the SigmaUSD bank](https://www.ergoforum.org/t/governance-for-oracle-pools-and-the-sigmausd-bank/786)
 
