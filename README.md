@@ -21,7 +21,7 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 
 **Potential SIPs**
 
-- **Dynamic fees** (many versions).
+- [**Dynamic fees**](https://github.com/ergoplatform/sips/issues/2) (many versions).
 - [**Simultaneous Minting**](https://github.com/ergoplatform/sips/issues/1)
 - **Non-matching lock** %. E.g. mint usd until 500%, cant sell rsv at 400%.
 - **Circuit Breakers** (max amount of mint per block)
