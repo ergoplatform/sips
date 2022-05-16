@@ -28,7 +28,7 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 
 **Contributing**
 
-- Please contribute directly to this repository in the Issues tab, or join the [SigmaUSD Telegram](https://t.me/SigmaUSD), [#sigmausd](https://discord.gg/GkpppkfHAV) the main ergo Discord, or respond on the [forum](https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345)
+- Please contribute directly to this repository in the Issues tab, or join the [SigmaUSD Telegram](https://t.me/SigmaUSD), [#sigmausd on Discord](https://discord.gg/GkpppkfHAV), or respond on the [forum](https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345)
 
 
 
