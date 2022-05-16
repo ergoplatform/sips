@@ -26,6 +26,11 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 - **Non-matching lock** %. E.g. mint usd until 500%, cant sell rsv at 400%.
 - **Circuit Breakers** (max amount of mint per block)
 
+**Contributing**
+
+- Please contribute directly to this repository in the Issues tab, or join the [SigmaUSD Telegram](https://t.me/SigmaUSD), [#sigmausd](https://discord.gg/GkpppkfHAV) the main ergo Discord, or respond on the [forum](https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345)
+
+
 
 ### Lessons from Djed 
 
