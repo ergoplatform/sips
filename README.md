@@ -47,7 +47,14 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 
 > While SigmaUSD v1 was originally immutable, after the Bearwhale attacks a governance token was added to allow modifications for any vulnerabilities that could appear.
 
-- [Governance for oracle pools and the SigmaUSD bank](https://www.ergoforum.org/t/governance-for-oracle-pools-and-the-sigmausd-bank/786)
+**Stablecoin Bank Quorum**
+
+The smart contract takes a token as input to change the script. 
+
+- cymatic
+- Armeanio
+- ergo101
+- anon2020s
 
 **Oracle Providers**
 
@@ -61,10 +68,9 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 - ollsanek - notable Russian community member
 - Marek Mahut from Five Binaries
 
-**Stablecoin Bank Quorum**
 
-- cymatic
-- Armeanio
-- ergo101
-- anon2020s
+
+- [Governance for oracle pools and the SigmaUSD bank](https://www.ergoforum.org/t/governance-for-oracle-pools-and-the-sigmausd-bank/786)
+
+
 
