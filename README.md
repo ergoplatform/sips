@@ -2,7 +2,7 @@
 
 SigmaUSD Improvement Proposals (SIPs) specify and/or describe standards for SigmaUSD. 
 
-Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergoplatform/eips/blob/master/eip-0015.md), to understand the general expectation of how EIPs are supposed to be formatted.
+Please check out [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergoplatform/eips/blob/master/eip-0015.md), to understand the general expectation of how EIPs are supposed to be formatted.
 
 
 | Number | Title |
@@ -49,7 +49,7 @@ Please check out existing EIPs, such as [EIP-0015: SigmaUSD Contracts Standard](
 
 **Stablecoin Bank Quorum**
 
-The smart contract takes a token as input to change the script. 
+The smart contract takes a token as input to change the script. This can be seen on [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergoplatform/eips/blob/master/eip-0015.md).
 
 - cymatic
 - Armeanio
