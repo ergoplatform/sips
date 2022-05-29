@@ -62,6 +62,8 @@ The smart contract takes a token as input to change the script. This can be seen
 
 - 0.5% change every 12 minutes
 
+[Governance for oracle pools and the SigmaUSD bank](https://www.ergoforum.org/t/governance-for-oracle-pools-and-the-sigmausd-bank/786)
+
 ### Providers
 
 
@@ -79,7 +81,6 @@ The smart contract takes a token as input to change the script. This can be seen
 
 
 
-- [Governance for oracle pools and the SigmaUSD bank](https://www.ergoforum.org/t/governance-for-oracle-pools-and-the-sigmausd-bank/786)
 
 
 
