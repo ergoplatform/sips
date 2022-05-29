@@ -49,14 +49,23 @@ Please check out [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergo
 
 **Stablecoin Bank Quorum**
 
-The smart contract takes a token as input to change the script. This can be seen on [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergoplatform/eips/blob/master/eip-0015.md).
+The smart contract takes a token as input to change the script. This can be seen on [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergoplatform/eips/blob/master/eip-0015.md) and the [ergoforum](https://www.ergoforum.org/t/sigusd-v-2-0-launch/912)
 
 - cymatic
 - Armeanio
-- ergo101
+- ponte
+- Spire Staking
 - anon2020s
 
-**Oracle Providers**
+
+## Oracle
+
+- 0.5% change every 12 minutes
+
+### Providers
+
+
+
 
 - greenhat - ergo-lib (aka sigma-rust) developer
 - scalahub - core R&D fellow
