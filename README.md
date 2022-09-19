@@ -14,7 +14,7 @@ Please check out [EIP-0015: SigmaUSD Contracts Standard](https://github.com/ergo
 
 ### Shortcomings
 
-- **Reserve Draining Attack:** See the [Bearwhale Saga](https://ergoplatform.org/en/blog/2021-05-13-bearwhale-saga/)
+- **Reserve Draining Attack:** See the [Bearwhale Saga](https://ergoplatform.org/en/blog/2021-05-13-bearwhale-saga/) & [Ideas for improvement of the Djed Protocol - Dr. Bruno W Paleo | Ergo Summit 2022](https://www.youtube.com/watch?v=yTgapwydOW0)
 - **Wholesale Discount**: Buying in one transaction is cheaper than the same amount with multiple tx, because the price changes in between
 - **Zero Equity**: At 100% reserve ratio, SigRSV is worthless.
 - **Capital Inefficiency:** The incentives for SigRSV holders are too small - at least in persistant downtrend. 
