@@ -79,8 +79,24 @@ The smart contract takes a token as input to change the script. This can be seen
 - ollsanek - notable Russian community member
 - Marek Mahut from Five Binaries
 
+## Resources
+
+- [EIP-0015: SigmaUSD Contracts #28](https://github.com/ergoplatform/eips/pull/28)
 
 
 
+## Updates
 
+Here is a table summarizing the key updates in each version of the SigmaBank smart contracts which can be seen in [contracts](/contracts/).
 
+| Feature | SigmaBankV0 | [SigmaBankV1](SIP-0000.md) | [SigmaBankV2](SIP-0001.md) |
+|---------|-------------|-------------|-------------|
+| Cooling-off period | Uses variable `$coolingOffHeight` | Uses `coolingOffHeight` constant (460000) | **No cooling-off period** |
+| Reserve ratio limits | Uses `defaultMaxReserveRatioPercent` and `INF` variables | Uses `defaultMaxReserveRatioPercent` (800%) and **`INF` (1000000000L) constants** | Uses `maxReserveRatioPercent` (800%) constant, **removes `INF`** |
+| Minting limits per oracle update | Not present | Not present | **Introduced `R6` (last oracle update height) and `R7` (remaining limit for SigUSD and SigRSV minting) registers, and related limit checks** |
+| Fee percentage | Uses `$feePercent` variable | **Uses `feePercent` constant (2%)** | Same as V1 |
+| Update box validation | Not present | **Introduced `isUpdate` validation using `updateNFT` constant** | Same as V1 |
+
+- The **cooling off period** mechanism was specifically designed for the initial launch phase of the SigmaUSD system. It provided a grace period during which the maximum reserve ratio constraint was relaxed, allowing for more flexibility in minting reserve coins (SigRSV) relative to the circulating supply of stablecoins (SigUSD). However, after the launch phase, this mechanism becomes redundant and can be removed to simplify the contract and eliminate potential confusion or unintended behavior.
+- The purpose of the **INF value** is to effectively disable the maximum reserve ratio check during the cooling-off period. When the contract height is less than or equal to the cooling-off height, the maxReserveRatioPercent is set to INF, which is a very large number (1000000000 in V1). This ensures that the reserve ratio check passes during the cooling-off period.
+- After the bearwhale attacks, an **UpdateNFT** was introduced so that the contract could be modified if required in future. 
